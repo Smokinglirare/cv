@@ -11,12 +11,12 @@ function experience() {
         <div className={styles.contactInfo}>
             <span className={styles.icons}><AiFillPhone /> <span className={styles.number}>+46709509387</span></span>
             <div className={styles.border}></div>
-            <span className={styles.icons}><ImEarth/> <span className={styles.number}>sebastian.thorneus@gmail.com</span><span className={styles.number}>www.thorneus.dev</span></span>
+            <span className={styles.icons}><ImEarth/> <span className={styles.number2}>Sebastian.thorneus@gmail.com</span><span className={styles.number2}>www.thorneus.dev</span></span>
             <div className={styles.border}></div>
             <span className={styles.icons}><GiPositionMarker /> <span className={styles.number}>Spannvägen 11 16835 Bromma</span></span>
             <div className={styles.border}></div>
         </div>
-        <div className={styles.experience}><h1 className={styles.experience}>Erfarenhet</h1></div>
+        <div className={styles.experience}><h1 className={styles.experienceText}>Erfarenhet</h1></div>
         <div className={styles.border}></div>  
         <div className={styles.experienceBox}>
             <h2 className={styles.title}>Lastbilschaufför - Home2You</h2>

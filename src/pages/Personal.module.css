@@ -36,7 +36,13 @@
     margin-left: 50px;
 }
 
-.experience{
+.number2{
+    font-family:rnzsans ;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.experienceText{
     margin-top: 50px;
     color: #fff;
     font-family:brinnan ;
@@ -85,4 +91,35 @@ margin:0;
     font-family:roboto ;
 font-size: 20px;
 margin-right: 50px;
+}
+
+@media only screen and (max-width: 750px){
+    .experienceText{
+        padding: 0px 0px 0px 50px;
+    }
+    
+    .education{
+        padding: 0px 0px 0px 50px;
+    }
+    .title{
+        margin-left: 50px;
+    }
+    .time{
+        margin-left: 50px;
+    }
+    
+    .timeStop{
+        margin-left: 50px;
+        }
+    
+    .place{
+        margin-left: 50px;
+    }
+    
+    .bread{
+    margin-left: 50px;
+    }
+    .number2{
+        display: block;
+    }
 }

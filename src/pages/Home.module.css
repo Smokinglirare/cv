@@ -44,7 +44,7 @@ text-align: left;
     margin: 20px;
     margin-left: 50px;
     margin-bottom: 0px;
-    width: 250px;
+    width: 300px;
     text-align: center;
     align-self: center;
 
@@ -111,4 +111,104 @@ margin: 4px;
     font-family:rnzsans ;
     font-size: 18px;
     padding: 0px 100px 0px 50px;
+}
+
+@media only screen and (max-width: 2150px){
+    .leftSide{
+        width: 25vw;
+        }
+        
+        .rightSide{
+            width: 25vw;  
+        }
+}
+@media only screen and (max-width: 1750px){
+    .leftSide{
+        width: 30vw;
+        }
+        .rightSide{
+            width: 30vw; 
+        }
+}
+@media only screen and (max-width: 1450px){
+    .leftSide{
+        width: 35vw;
+        }
+        .rightSide{
+            width: 35vw; 
+        }
+}
+@media only screen and (max-width: 1250px){
+    .leftSide{
+        width: 40vw;
+        }
+        .rightSide{
+            width: 40vw; 
+        }
+}
+@media only screen and (max-width: 1100px){
+    .leftSide{
+        width: 45vw;
+        }
+        .rightSide{
+            width: 45vw; 
+        }
+}
+@media only screen and (max-width: 1000px){
+    .leftSide{
+        width: 48vw;
+        }
+        .rightSide{
+            width: 48vw; 
+        }
+}
+@media only screen and (max-width: 900px){
+    .container{
+        padding: 10px;
+    }
+    .leftSide{
+        width: 48vw;
+        height: 90vh;
+        }
+        .rightSide{
+            width: 48vw; 
+            height: 90vh;
+        }
+}
+@media only screen and (max-width: 750px){
+    .container{
+        padding: 10px;
+    }
+    
+.grid{
+    display: block;
+}
+    .leftSide{
+        width: 80vw;
+        height: 1000px;
+        }
+        .rightSide{
+            width: 80vw; 
+            height:1300px;
+        }
+        .image{
+            margin: 0px;
+            margin-left: 10px;
+        }
+        .icons{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .border{
+            margin: 0px 0px 0px 0px;
+            width: 300px;
+            
+        }
+        .bread{
+            color: #fff;
+            font-family:rnzsans ;
+            font-size: 18px;
+            padding: 0px 10px 0px 50px;
+        }
+        
 }

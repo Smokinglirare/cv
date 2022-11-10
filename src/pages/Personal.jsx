@@ -11,12 +11,12 @@ function Personal() {
     <div className={styles.contactInfo}>
         <span className={styles.icons}><AiFillPhone /> <span className={styles.number}>+46709509387</span></span>
         <div className={styles.border}></div>
-        <span className={styles.icons}><ImEarth/> <span className={styles.number}>sebastian.thorneus@gmail.com</span><span className={styles.number}>www.thorneus.dev</span></span>
+        <span className={styles.icons}><ImEarth/> <span className={styles.number2}>Sebastian.thorneus@gmail.com</span><span className={styles.number2}>www.thorneus.dev</span></span>
         <div className={styles.border}></div>
         <span className={styles.icons}><GiPositionMarker /> <span className={styles.number}>Spannvägen 11 16835 Bromma</span></span>
         <div className={styles.border}></div>
     </div>
-    <div className={styles.experience}><h1 className={styles.experience}>Personligt brev</h1></div>
+    <div className={styles.experience}><h1 className={styles.experienceText}>Personligt brev</h1></div>
     <div className={styles.border}></div>  
     <div className={styles.experienceBox}>
         <p className={styles.bread}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum reprehenderit quo id recusandae quam ea ullam officiis sit ratione, hic nemo porro aliquam eaque rerum veniam illum velit rem. Molestias?

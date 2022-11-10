@@ -7,3 +7,8 @@ background-size: cover;
 height: 100vh;
 }
 
+@media only screen and (max-width: 750px){
+  .App{
+    height: 2350px;
+  }
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "./Home.module.css"
 import {TbOctagon, TbBrandNextjs} from "react-icons/tb"
-import {SiJavascript, SiReact, SiCss3} from "react-icons/si"
+import {SiJavascript, SiReact, SiCss3, SiTypescript} from "react-icons/si"
 import {FaNodeJs, FaGitSquare} from "react-icons/fa"
-import profile from "../images/profile.jpg"
+import profile from "../images/Sebbe2.png"
 import Experience from './Experience'
 import Navbar from '../components/Navbar'
 
@@ -23,7 +23,7 @@ function Home() {
        <div className={styles.icons}><span className={styles.icon}><SiJavascript /></span>
        <span className={styles.icon}><SiReact /></span>
        <span className={styles.icon}><SiCss3 /></span>
-       <span className={styles.icon}><TbBrandNextjs /></span>
+       <span className={styles.icon}><SiTypescript /></span>
        <span className={styles.icon}><FaNodeJs /></span>
        <span className={styles.icon}><FaGitSquare /></span>
        </div> 
