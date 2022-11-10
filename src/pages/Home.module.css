@@ -1,0 +1,114 @@
+@font-face {
+    font-family:northden ;
+    src: local('northden'), url(../fonts/NORTHDENROUGH.ttf);
+  }
+  
+  @font-face {
+    font-family:brinnan ;
+    src: local('brinnan'), url(../fonts/Brinnan\ Regular.otf);
+  }
+
+  @font-face {
+    font-family:rnzsans ;
+    src: local('rnzsans'), url(../fonts/RNSSanz-Normal.otf);
+  }
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #1b1613;
+   
+}
+
+.leftSide{
+width: 20vw;
+height: 80vh;
+text-align: left;
+}
+
+.rightSide{
+    width: 20vw;
+    height: 80vh;
+    text-align: left;
+}
+
+.image{
+    margin: 20px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    width: 250px;
+    text-align: center;
+    align-self: center;
+
+}
+
+.border{
+    margin: 0px 0px 0px 50px;
+    width: 300px;
+    border-bottom: 1px solid #ccc;
+}
+.icons{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.icon{
+    display: inline-block;
+    color: #fff;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #fff;
+    padding: 0.5em 0.6em;
+    font-size: 30px;
+    margin: 15px;
+   
+}
+
+/* text */
+
+.firstName{
+    margin: 0;
+    font-family:northden ;
+    font-size: 60px;
+    color: #fff;
+    padding: 50px 0px 0px 50px;
+}
+.lastName{
+    margin: 0;
+    font-family:northden ;
+    font-size: 60px;
+    color: #fff;
+    padding: 0px 0px 0px 50px;
+}
+
+.octagon{
+    color: #fff;
+    padding: 2px;
+    padding: 0px 0px 0px 50px;
+}
+
+.title{
+color: #fff;
+font-size: 20px;
+font-family:brinnan ;
+margin: 4px;
+}
+
+.me{
+    color: #fff;
+    font-family:brinnan ;
+    padding: 0px 0px 0px 50px;
+}
+
+.bread{
+    color: #fff;
+    font-family:rnzsans ;
+    font-size: 18px;
+    padding: 0px 50px 0px 50px;
+}
