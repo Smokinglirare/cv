@@ -1,0 +1,15 @@
+.navbarContainer{
+  	bottom:0;
+    text-align: center;
+}
+.link {
+    font-size: 30px;
+    margin: 15px;
+    color: #fff;
+     text-decoration: none;
+}
+
+
+.current {
+    color:	#FFFF00;
+  }

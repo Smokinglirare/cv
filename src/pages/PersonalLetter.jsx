@@ -6,8 +6,9 @@ import {FaNodeJs, FaGitSquare} from "react-icons/fa"
 import profile from "../images/profile.jpg"
 import Experience from './Experience'
 import Navbar from '../components/Navbar'
+import Personal from './Personal'
 
-function Home() {
+function PersonalLetter() {
   return (
     <div className={styles.container}>
         <div className={styles.grid}>
@@ -30,7 +31,7 @@ function Home() {
         </div>
 
         <div className={styles.rightSide}>
-        <Experience />
+        <Personal />
 
         </div>
 
@@ -39,4 +40,4 @@ function Home() {
   )
 }
 
-export default Home
+export default PersonalLetter
