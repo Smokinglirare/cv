@@ -9,7 +9,7 @@ function Personal() {
   return (
     <div className={styles.container}>
     <div className={styles.contactInfo}>
-        <span className={styles.icons}><AiFillPhone /> <span className={styles.number}>+46709509387</span></span>
+        <span className={styles.icons}><AiFillPhone /> <span className={styles.number}>+46 709 509 387</span></span>
         <div className={styles.border}></div>
         <span className={styles.icons}><ImEarth/> <span className={styles.number2}>Sebastian.thorneus@gmail.com</span><span className={styles.number2}>www.thorneus.dev</span></span>
         <div className={styles.border}></div>

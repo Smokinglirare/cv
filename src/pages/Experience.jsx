@@ -9,7 +9,7 @@ function experience() {
   return (
     <div className={styles.container}>
         <div className={styles.contactInfo}>
-            <span className={styles.icons}><AiFillPhone /> <span className={styles.number}>+46709509387</span></span>
+            <span className={styles.icons}><AiFillPhone /> <span className={styles.number}>+46 709 509 387</span></span>
             <div className={styles.border}></div>
             <span className={styles.icons}><ImEarth/> <span className={styles.number2}>Sebastian.thorneus@gmail.com</span><span className={styles.number2}>www.thorneus.dev</span></span>
             <div className={styles.border}></div>
@@ -28,7 +28,7 @@ function experience() {
             <h2 className={styles.title}>Lastbilschaufför - Postnord</h2>
             <h3 className={styles.time}>2021 - 2022</h3>
             <h4 className={styles.place}>Kiruna</h4>
-            <p className={styles.bread}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis culpa unde minus tempora commodi accusamus vero harum deleniti autem! Commodi, et? Accusantium perferendis itaque perspiciatis eveniet pariatur ipsam, quam harum.</p>
+            <p className={styles.bread}>Arbetat på Postnords pakethantering i Kiruna där jag framför allt kört ut större paket i lastbil som de mindre brevbilarna inte klarat av. En tjänst där arbetsdagen börjar 0430 med lagerarbete fram till 0800 och sedan utkörningar resten av dagen till allt från privatpersoner ute i byarna till affärer inne i Kiruna. </p>
             </div>  
         <div className={styles.education}>Utbildning</div>
         <div className={styles.border}></div>  
@@ -40,7 +40,9 @@ function experience() {
             <div className={styles.experienceBox}>
             <h2 className={styles.title}>Frontend developer - Changemaker Educations</h2>
             <h3 className={styles.time}>2021 - 2022</h3>
-            <p className={styles.bread}>Dynamisk frontend-utveckling, apputveckling, mobile first, responsiv design och UX-design utvecklas i högt tempo och är därför ledord i denna utbildning. Digitala strategier och agil projektmetodik är även viktiga framgångsfaktorer. Vill du vara med och utveckla dagens och framtidens hemsidor och appar?</p>
+            <p className={styles.bread}>
+Frontend utbildning med fokus på Javascript och ReactJS, men också en tre månaders kurs inom backend och NodeJS. Gått kurser inom UI och UX design samt projektmetodik, men även digital marknadsföring, versionshantering och webbpublicering.
+</p>
             </div>  
             <div className={styles.border}></div>  
         <div className={styles.navbar}>        <Navbar /></div>
