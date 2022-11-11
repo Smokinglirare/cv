@@ -67,6 +67,9 @@ text-align: left;
     padding: 0.5em 0.6em;
     font-size: 30px;
     margin: 15px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
    
 }
 
@@ -111,6 +114,14 @@ margin: 4px;
     font-family:rnzsans ;
     font-size: 18px;
     padding: 0px 100px 0px 50px;
+}
+
+.iconText{
+    font-size: 10px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
 }
 
 @media only screen and (max-width: 2150px){
@@ -191,11 +202,9 @@ margin: 4px;
 }
     .leftSide{
         width: 80vw;
-        height: 1000px;
         }
         .rightSide{
-            width: 80vw; 
-            height:1300px;
+            width: 80vw;  
         }
         .image{
             margin: 0px;
@@ -215,6 +224,30 @@ margin: 4px;
             font-family:rnzsans ;
             font-size: 18px;
             padding: 0px 10px 0px 50px;
+            margin-right: 40px;
         }
-        
+        .icons{
+            text-align: center;
+        }
+}
+
+@media only screen and (max-width: 450px){
+    .firstName{
+        font-size: 50px;
+    }
+    .lastName{
+        font-size: 50px;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .image{
+        margin: 0;
+        width: 280px;
+    }
+    .imageDiv{
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
 }

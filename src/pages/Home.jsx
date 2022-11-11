@@ -16,16 +16,16 @@ function Home() {
         <h1 className={styles.lastName}>Torneus</h1>
         <span className={styles.octagon}><TbOctagon /><TbOctagon /><TbOctagon /><TbOctagon />
         </span>  <span className={styles.title}>Frontend-utvecklare</span>
-        <img className={styles.image} src={profile}></img>
+       <div className={styles.imageDiv}> <img className={styles.image} src={profile}></img></div>
   <h2 className={styles.me}>Om mig</h2>
   <div className={styles.border}></div>
   <p className={styles.bread}>Jag är en engagerad och prestigelös person som just nu utbildar mig inom frontend-utveckling som senaste åren lärt mig UI och UX design. Arbetat mycket med CSS och Javascript, framför allt på slutet mycket i ReactJS. Gillar att grotta ner mig i detaljer och lära mig nya saker. </p>
-       <div className={styles.icons}><span className={styles.icon}><SiJavascript /></span>
-       <span className={styles.icon}><SiReact /></span>
-       <span className={styles.icon}><SiCss3 /></span>
-       <span className={styles.icon}><SiTypescript /></span>
-       <span className={styles.icon}><FaNodeJs /></span>
-       <span className={styles.icon}><FaGitSquare /></span>
+       <div className={styles.icons}><span className={styles.icon}><SiJavascript /><span className={styles.iconText}>JavaScript</span></span>
+       <span className={styles.icon}><SiReact /><span className={styles.iconText}>ReactJS</span></span>
+       <span className={styles.icon}><SiCss3 /><span className={styles.iconText}>CSS</span></span>
+       <span className={styles.icon}><SiTypescript /><span className={styles.iconText}>TypeScript</span></span>
+       <span className={styles.icon}><FaNodeJs /><span className={styles.iconText}>NodeJS</span></span>
+       <span className={styles.icon}><FaGitSquare /><span className={styles.iconText}>Git</span></span>
        </div> 
         </div>
 
