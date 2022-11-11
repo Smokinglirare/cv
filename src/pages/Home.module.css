@@ -12,6 +12,10 @@
     font-family:rnzsans ;
     src: local('rnzsans'), url(../fonts/RNSSanz-Normal.otf);
   }
+  @font-face {
+    font-family:roboto ;
+    src: local('roboto'), url(../fonts/Roboto-Light.ttf);
+  }
 
 
 .container{
@@ -111,7 +115,7 @@ margin: 4px;
 
 .bread{
     color: #fff;
-    font-family:rnzsans ;
+    font-family:roboto ;
     font-size: 18px;
     padding: 0px 100px 0px 50px;
 }
