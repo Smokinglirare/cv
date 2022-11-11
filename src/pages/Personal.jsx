@@ -11,7 +11,7 @@ function Personal() {
     <div className={styles.contactInfo}>
         <span className={styles.icons}><AiFillPhone /> <span className={styles.number}>+46 709 509 387</span></span>
         <div className={styles.border}></div>
-        <span className={styles.icons}><ImEarth/> <span className={styles.number2}>Sebastian.thorneus@gmail.com</span><span className={styles.number2}>www.thorneus.dev</span></span>
+        <span className={styles.icons}><ImEarth/> <span className={styles.number2}>Sebastian.thorneus@gmail.com</span><a href="http://stportfolio.netlify.app" className={styles.number2}>Stportfolio.netlify.app</a></span>
         <div className={styles.border}></div>
         <span className={styles.icons}><GiPositionMarker /> <span className={styles.number}>Spannvägen 11 16835 Bromma</span></span>
         <div className={styles.border}></div>
