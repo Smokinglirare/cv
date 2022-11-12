@@ -1,9 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import {BiTime} from "react-icons/bi"
-import { SlCalender, SlHome } from "react-icons/sl"
+import { SlHome } from "react-icons/sl"
 import {CiMail} from "react-icons/ci"
 import { Link, useLocation } from 'react-router-dom'
-import Experience from '../pages/Experience'
 import "./Navbar.css"
 
 
