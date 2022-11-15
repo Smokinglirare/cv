@@ -19,9 +19,34 @@ function Personal() {
     <div className={styles.experience}><h1 className={styles.experienceText}>Personligt brev</h1></div>
     <div className={styles.border}></div>  
     <div className={styles.experienceBox}>
-        <p className={styles.bread}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum reprehenderit quo id recusandae quam ea ullam officiis sit ratione, hic nemo porro aliquam eaque rerum veniam illum velit rem. Molestias?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quis aliquid fugit perspiciatis! Totam, sunt. Pariatur quod animi libero minus illum accusantium at, veritatis nam eos ullam nulla? Expedita, nostrum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus debitis earum ratione. Sit eos facilis dignissimos corrupti magni! Velit, facere eligendi? Esse ratione repudiandae, commodi quas repellat illum impedit.</p>
+        <p className={styles.bread}>
+        Mitt namn är Sebastian Torneus och jag går just nu utbildningen Frontend /App Developer hos Changemaker Educations. Jag är 32 år gammal och har under större delen av mitt arbetsliv kört lastbil för Home2you. Senaste åren har jag bott en del i Jukkasjärvi där jag renoverat hus som gått i arv och startat upp en uthyrningsverksamhet där jag bland annat hyr ut hus till ishotellet i Jukkasjärvi. Jag har även senaste åren jobbat en del för Postnord i Kiruna på deras pakethantering som är separerad från brevbärar-avdelningen, ett jobb som kombinerar lagerarbete och lastbilskörning.
+<br></br>
+<br></br>
+För 1,5 år sedan påbörjade jag utbildningen Frontend/App developer för att jag var intresserad av att byta bransch och testa på något nytt. Av den anledningen är jag just nu ute efter en LIA plats. Jag har under utbildningen gått dessa kurser:
+<br></br>
+<br></br>
+Frontend-programmering <strong>80 YHP</strong>
+<br></br>
+Webb- och mobilapplikationsutveckling <strong>80 YHP</strong>
+<br></br>
+Javascript-ramverk <strong>50 YHP</strong>
+<br></br>
+Webbserver och databaser <strong>50 YHP</strong>
+<br></br>
+Versionshantering <strong>10 YHP</strong>
+<br></br>
+Webbpublicering <strong>10 YHP</strong>
+<br></br>
+UX, Design och Layout <strong>10 YHP</strong>
+<br></br>
+Projektmetodik inom IT <strong>10 YHP</strong>
+<br></br>
+Digital marknadsföring <strong>10 YHP</strong>
+<br></br>
+
+</p>
+
         </div>     
         <div className={styles.border}></div>
     
