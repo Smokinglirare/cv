@@ -255,8 +255,6 @@ margin: 4px;
         text-align: center;
     }
     .border{
-        margin: 0px 0px 0px 50px;
-        width: 280px;
-        border-bottom: 1px solid #ccc;
+        margin: 12px 30px 12px 0px;
     }
 }

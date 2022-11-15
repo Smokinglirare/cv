@@ -123,6 +123,9 @@ margin-right: 50px;
     .bread{
     margin-left: 50px;
     }
+    .number{
+        font-size: 13px;
+    }
     .number2{
         display: block;
     }
