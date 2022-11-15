@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { SlHome } from "react-icons/sl"
-import {CiMail} from "react-icons/ci"
+import {HiOutlineDocumentText, HiOutlineHome} from "react-icons/hi"
 import { Link, useLocation } from 'react-router-dom'
 import "./Navbar.css"
 
@@ -18,8 +17,8 @@ function Navbar() {
 
   return (
     <div className="navbarContainer">
-<Link className={"link" + (url === "/" || url === "/home" ?" current" : "")} to="/" ><SlHome /></Link>
-<Link className={"link" + (url === "/personalLetter" ? " current" : "")} to="/personalLetter" ><CiMail /></Link>
+<Link className={"link" + (url === "/" || url === "/home" ?" current" : "")} to="/" ><HiOutlineHome /></Link>
+<Link className={"link" + (url === "/personalLetter" ? " current" : "")} to="/personalLetter" ><HiOutlineDocumentText /></Link>
 
     </div>
   )
