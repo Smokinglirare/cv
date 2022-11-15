@@ -20,7 +20,7 @@ function Personal() {
     <div className={styles.border}></div>  
     <div className={styles.experienceBox}>
         <p className={styles.bread}>
-        Mitt namn är Sebastian Torneus och jag går just nu utbildningen Frontend /App Developer hos Changemaker Educations. Jag är 32 år gammal och har under större delen av mitt arbetsliv kört lastbil för Home2you i Stockholm. Senaste åren har jag bott en del i Jukkasjärvi där jag renoverat hus som gått i arv och startat upp en uthyrningsverksamhet där jag bland annat hyr ut hus till ishotellet i Jukkasjärvi. Periodvis när jag bott i Jukkasjärvi har jag även arbetat för Postnord i Kiruna, på deras avdelning för pakethantering som är separerad för brevbärar-avdelningen.
+        Mitt namn är Sebastian Torneus och jag går just nu utbildningen Frontend /App Developer hos Changemaker Educations. Jag är 32 år gammal och har under större delen av mitt arbetsliv kört lastbil för Home2you i Stockholm. Senaste åren har jag bott en del i Jukkasjärvi där jag renoverat hus som gått i arv och startat upp en uthyrningsverksamhet där jag bland annat hyr ut hus till ishotellet i Jukkasjärvi. Periodvis när jag bott i Jukkasjärvi har jag även arbetat för Postnord i Kiruna, på deras avdelning för pakethantering som är separerad från brevbärar-avdelningen.
 <br></br>
 <br></br>
 För 1,5 år sedan påbörjade jag utbildningen Frontend/App developer för att jag var intresserad av att byta bransch och testa på något nytt. Av den anledningen är jag just nu ute efter en LIA plats. Jag har under utbildningen gått dessa kurser:
