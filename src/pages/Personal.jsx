@@ -25,25 +25,7 @@ function Personal() {
 <br></br>
 För 1,5 år sedan påbörjade jag utbildningen Frontend/App developer för att jag var intresserad av att byta bransch och testa på något nytt. Av den anledningen är jag just nu ute efter en LIA plats. Jag har under utbildningen gått dessa kurser:
 <br></br>
-<br></br>
-Frontend-programmering <strong>80 YHP</strong>
-<br></br>
-Webb- och mobilapplikationsutveckling <strong>80 YHP</strong>
-<br></br>
-Javascript-ramverk <strong>50 YHP</strong>
-<br></br>
-Webbserver och databaser <strong>50 YHP</strong>
-<br></br>
-Versionshantering <strong>10 YHP</strong>
-<br></br>
-Webbpublicering <strong>10 YHP</strong>
-<br></br>
-UX, Design och Layout <strong>10 YHP</strong>
-<br></br>
-Projektmetodik inom IT <strong>10 YHP</strong>
-<br></br>
-Digital marknadsföring <strong>10 YHP</strong>
-<br></br>
+
 
 </p>
 
