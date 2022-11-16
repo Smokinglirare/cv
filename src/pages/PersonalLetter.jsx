@@ -19,10 +19,10 @@ function PersonalLetter() {
   <h2 className={styles.me}>Om mig</h2>
   <div className={styles.border}></div>
   <p className={styles.bread}>Jag är en engagerad och prestigelös person som just nu utbildar mig inom frontend-utveckling och senaste åren lärt mig UI och UX design. Jag har arbetat mycket med CSS och Javascript, framför allt på slutet mycket i ReactJS. Jag gillar att grotta ner mig i detaljer och lära mig nya saker. </p>
-  <div className={styles.icons}><span className={styles.icon}><SiJavascript /><span className={styles.iconText}>JavaScript</span></span>
+  <div className={styles.icons}><span className={styles.icon}><SiJavascript /><span className={styles.iconText}>JS</span></span>
        <span className={styles.icon}><SiReact /><span className={styles.iconText}>ReactJS</span></span>
        <span className={styles.icon}><SiCss3 /><span className={styles.iconText}>CSS</span></span>
-       <span className={styles.icon}><SiTypescript /><span className={styles.iconText}>TypeScript</span></span>
+       <span className={styles.icon}><SiTypescript /><span className={styles.iconText}>TS</span></span>
        <span className={styles.icon}><FaNodeJs /><span className={styles.iconText}>NodeJS</span></span>
        <span className={styles.icon}><FaGitSquare /><span className={styles.iconText}>Git</span></span>
        </div> 
