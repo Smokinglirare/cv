@@ -23,9 +23,10 @@ function Personal() {
         Mitt namn är Sebastian Torneus och jag går just nu utbildningen Frontend /App Developer hos Changemaker Educations. Jag är 32 år gammal och har under större delen av mitt arbetsliv kört lastbil för Home2you i Stockholm. Senaste åren har jag bott en del i Jukkasjärvi där jag renoverat hus som gått i arv och startat upp en uthyrningsverksamhet där jag bland annat hyr ut hus till ishotellet i Jukkasjärvi. Periodvis när jag bott i Jukkasjärvi har jag även arbetat för Postnord i Kiruna, på deras avdelning för pakethantering som är separerad från brevbärar-avdelningen. I yngre ålder har jag jobbat med diverse ströjobb som publikvärd för Hammarby Fotboll och Solvalla med mera.  
 <br></br>
 <br></br>
-Under min utbildning hos Changemaker har jag fått lära mig Javascript, CSS och HTML, men vi har även lagt väldigt mycket tid på React. Besök gärna mitt portfolio länkat högst upp på sidan för att se lite av mina sidoprojekt, majoriteten byggda i React. Via portfolion kan ni även nå min Github där jag har lite andra publika repos som skolprojekt, mailserver och annat jag byggt senaste åren. 
+Under min utbildning hos Changemaker har jag fått lära mig Javascript, CSS och HTML, men vi har även lagt väldigt mycket tid på React. Besök gärna mitt portfolio länkat högst upp på sidan för att se lite av mina sidoprojekt, majoriteten byggda i React. Via portfolion kan ni även nå min Github där jag har lite andra publika repos som olika skolprojekt, mailserver och annat jag byggt senaste åren. Vi har gått en kurs inom versionshantering och det har blivit så att jag använder Git nästan varje dag så jag känner mig ganska väl bevandrad inom det.
 <br></br>
-
+<br></br>
+Inom React har jag erfarenhet av att använda React-router-dom för routing inom mina projekt, Framer-motion har jag använt en del för animationer, Axios brukar jag vanligtvis använda när jag jobbar med API sen diverse andra paket som React-icons, Moment, Uuid med mera. Jag har utforskat en del front-end framework som React-bootstrap som jag byggde mitt portfolio med, men även andra som ChakraUI, men har på slutet tyckt att det känns friare att använda CSS för min design. Inom CSS har jag utforskat vanlig CSS, CSS-in-JS Styled-Components, men främst använder jag CSS moduler som jag tycker fungerar bäst.
 
 </p>
 
