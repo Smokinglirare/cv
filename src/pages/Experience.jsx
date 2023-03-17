@@ -18,11 +18,6 @@ function experience() {
         </div>
         <div className={styles.education}>Utbildning</div>
         <div className={styles.border}></div>  
-        <div className={styles.experienceBox}>
-            <h2 className={styles.title}>Slutbetyg gymnasiet</h2>
-            <h3 className={styles.timeStop}>2008 - 2020</h3>
-            
-            </div>  
             <div className={styles.experienceBox}>
             <h2 className={styles.title}>Frontend developer - Changemaker Educations</h2>
             <h3 className={styles.time}>2021 - 2022</h3>
@@ -50,21 +45,32 @@ UX, Design och Layout <strong>10 YHP</strong>
 Projektmetodik inom IT <strong>10 YHP</strong>
 <br></br>
 Digital marknadsföring <strong>10 YHP</strong>
+<br></br>
+Examensarbete <strong>20 YHP</strong>
+<br></br>
+<span className={styles.onGoing}>Pågående:</span> LIA - Lärande i Arbete <strong>120YHP</strong>
 </p>
             </div>  
         <div className={styles.experience}><h1 className={styles.experienceText}>Erfarenhet</h1></div>
         <div className={styles.border}></div>  
         <div className={styles.experienceBox}>
-            <h2 className={styles.title}>Lastbilschaufför - Home2You</h2>
-            <h3 className={styles.time}>2009 - 2019</h3>
+            <h2 className={styles.title}>Frontend utvecklare - Kvantic</h2>
+            <h3 className={styles.time}>2023</h3>
             <h4 className={styles.place}>Stockholm</h4>
-            <p className={styles.bread}>Arbetat med det mesta hos Home2you. Kört matvaror för diverse olika stora grossister som Martin&Servera, Svensk cater med leveranser till restauranger, men även olika uppdrag som att köra matkassar till privatpersoner för Citygross, köra ut färdigmat som tårtor till cafeer åt företaget Flavy, köra färdiga wraps för företaget Wrapsons till alla möjliga typer av matbutiker som Ica exempelvis.</p>
-            </div>     
+            <p className={styles.bread}>Har just nu min LIA hos Kvantic i Stockholm där jag bygger olika verktyg för företaget inom både front och backend.</p>
+            </div>  
+           
             <div className={styles.experienceBox}>
             <h2 className={styles.title}>Lastbilschaufför - Postnord</h2>
             <h3 className={styles.time}>2021 - 2022</h3>
             <h4 className={styles.place}>Kiruna</h4>
             <p className={styles.bread}>Arbetat på Postnords pakethantering i Kiruna där jag framför allt kört ut större paket i lastbil som de mindre brevbilarna inte klarat av. En tjänst där arbetsdagen börjar 0430 med lagerarbete fram till 0800 och sedan utkörningar resten av dagen till allt från privatpersoner ute i byarna till affärer inne i Kiruna. </p>
+            </div>  
+            <div className={styles.experienceBox}>
+            <h2 className={styles.title}>Lastbilschaufför - Home2You</h2>
+            <h3 className={styles.time}>2009 - 2019</h3>
+            <h4 className={styles.place}>Stockholm</h4>
+            <p className={styles.bread}>Arbetat med det mesta hos Home2you. Kört matvaror för diverse olika stora grossister som Martin&Servera, Svensk cater med leveranser till restauranger, men även olika uppdrag som att köra matkassar till privatpersoner för Citygross, köra ut färdigmat som tårtor till cafeer åt företaget Flavy, köra färdiga wraps för företaget Wrapsons till alla möjliga typer av matbutiker som Ica exempelvis.</p>
             </div>  
        
             <div className={styles.border}></div>  

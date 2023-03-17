@@ -95,6 +95,9 @@ margin:0;
 font-size: 14px;
 margin-right: 50px;
 }
+.onGoing{
+  color: #FFFF00;
+}
 @media only screen and (max-width: 750px){
     .experienceText{
         padding: 0px 0px 0px 50px;
@@ -128,4 +131,5 @@ margin-right: 50px;
     .number2{
         display: block;
     }
+    
 }

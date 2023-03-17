@@ -27,7 +27,9 @@ Under min utbildning hos Changemaker har jag fått lära mig Javascript, CSS och
 <br></br>
 <br></br>
 Inom React har jag erfarenhet av att använda React-router-dom för routing inom mina projekt, Framer-motion har jag använt en del för animationer, Axios brukar jag vanligtvis använda när jag jobbar med API sen diverse andra paket som React-icons, Moment, Uuid med mera. Jag har utforskat en del komponent-bibliotek som React-bootstrap som jag byggde mitt portfolio med, men även andra som ChakraUI och MUI, men föredrar att bygga min design med egen CSS då man har lite mer frihet. Inom CSS har jag utforskat vanlig CSS, CSS-in-JS Styled-components, men främst använder jag CSS moduler som jag tycker fungerar bäst. Utöver det har jag arbetat en del med Typescript, byggt lite med NextJs och Vue. 
-
+<br></br>
+<br></br>
+Hos Kvantic arbetar jag just nu med NextJs, Redux/toolkit och Typescript i mitt pågående projekt. 
 </p>
 
         </div>     
