@@ -5,15 +5,6 @@ import profile from "../images/Sebbe2.png";
 import Experience from "./Experience";
 import SkillBar from "../components/SkillBar";
 
-function useHover() {
-  const [hovering, setHovering] = useState(false);
-  const onHoverProps = {
-    onMouseEnter: () => setHovering(true),
-    onMouseLeave: () => setHovering(false),
-  };
-  return [hovering, onHoverProps];
-}
-
 function Home() {
   return (
     <div className={styles.container}>
