@@ -3,7 +3,6 @@ import styles from "./Experience.module.css";
 import { AiFillPhone } from "react-icons/ai";
 import { ImEarth } from "react-icons/im";
 import { GiPositionMarker } from "react-icons/gi";
-import Navbar from "../components/Navbar";
 
 function experience() {
   return (
