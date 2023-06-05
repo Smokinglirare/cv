@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Home.module.css";
 import { TbOctagon } from "react-icons/tb";
 import profile from "../images/Sebbe2.png";
