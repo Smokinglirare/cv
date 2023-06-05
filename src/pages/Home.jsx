@@ -5,6 +5,7 @@ import {SiJavascript, SiReact, SiCss3, SiTypescript} from "react-icons/si"
 import {FaNodeJs, FaGitSquare} from "react-icons/fa"
 import profile from "../images/Sebbe2.png"
 import Experience from './Experience'
+import SkillBar from '../components/SkillBar'
 
 function useHover() {
   const [hovering, setHovering] = useState(false)
@@ -32,13 +33,18 @@ const [buttonAIsHovering, buttonAHoverProps] = useHover()
   <h2 className={styles.me}>Om mig</h2>
   <div className={styles.border}></div>
   <p className={styles.bread}>Jag är en engagerad och prestigelös person som just nu utbildar mig inom frontend-utveckling och senaste åren lärt mig UI och UX design. Jag har arbetat mycket med CSS och Javascript, framför allt på slutet mycket i ReactJS. Jag gillar att grotta ner mig i detaljer och lära mig nya saker. </p>
-       <div className={styles.icons}><span className={styles.icon} {...buttonAHoverProps}><SiJavascript />{buttonAIsHovering ? <span className={styles.iconText}>70%</span> : <span className={styles.iconText}>JS</span>} </span>
-       <span className={styles.icon} {...buttonAHoverProps}><SiReact />{buttonAIsHovering ? <span className={styles.iconText}>70%</span> : <span className={styles.iconText}>React</span>}</span>
-       <span className={styles.icon} {...buttonAHoverProps}><SiCss3 />{buttonAIsHovering ? <span className={styles.iconText}>80%</span> : <span className={styles.iconText}>CSS</span>}</span>
-       <span className={styles.icon} {...buttonAHoverProps}><SiTypescript />{buttonAIsHovering ? <span className={styles.iconText}>60%</span> : <span className={styles.iconText}>TS</span>}</span>
-       <span className={styles.icon} {...buttonAHoverProps}><FaNodeJs />{buttonAIsHovering ? <span className={styles.iconText}>60%</span> : <span className={styles.iconText}>Node</span>}</span>
-       <span className={styles.icon} {...buttonAHoverProps}><FaGitSquare />{buttonAIsHovering ? <span className={styles.iconText}>80%</span> : <span className={styles.iconText}>Git</span>}</span>
-       </div> 
+  <h2 className={styles.me}>Kunskaper</h2>
+ <div className={styles.skills}>
+      <SkillBar skill="Javascript" level={80} />
+      <SkillBar skill="React" level={80} />
+      <SkillBar skill="CSS" level={80} />
+      <SkillBar skill="Typescript" level={60} />
+      <SkillBar skill="Node" level={60} />
+      <SkillBar skill="Git" level={80} />
+      <SkillBar skill="Redux" level={80} />
+      <SkillBar skill="Docker" level={70} />
+      <SkillBar skill="REST API" level={80} />
+    </div>
         </div>
 
         <div className={styles.rightSide}>
