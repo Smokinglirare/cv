@@ -15,8 +15,8 @@ function experience() {
         <span className={styles.icons}>
           <ImEarth />{" "}
           <span className={styles.number2}>Sebastian.thorneus@gmail.com</span>
-          <a href="http://stportfolio.netlify.app" className={styles.number2}>
-            Stportfolio.netlify.app
+          <a href="https://torneusportfolio.vercel.app/" className={styles.number2}>
+          Portfolio
           </a>
         </span>
         <div className={styles.border}></div>
@@ -63,7 +63,7 @@ function experience() {
           <br></br>
           Examensarbete <strong>20 YHP</strong>
           <br></br>
-          <span className={styles.onGoing}>Pågående:</span> LIA - Lärande i
+         LIA - Lärande i
           Arbete <strong>120YHP</strong>
         </p>
       </div>
@@ -76,10 +76,10 @@ function experience() {
         <h3 className={styles.time}>2023</h3>
         <h4 className={styles.place}>Stockholm</h4>
         <p className={styles.bread}>
-          Har just nu min LIA hos Kvantic i Stockholm där jag byggt ett
+          Har haft en fem månaders LIA hos Kvantic i Stockholm där jag byggt ett
           fullstack verktyg i NextJS och NodeJS där man kan skapa bildannonser i
-          stor skala med hjälp av mallar och datatabeller. Jobbar just nu på att
-          ta fram en webbshop åt Kvantic med hjälp av NextJS och Strapi som CMS.{" "}
+          stor skala med hjälp av mallar och datatabeller. Har också tagit en start på en
+          webbshop åt Kvantic med hjälp av NextJS och Strapi som CMS.{" "}
         </p>
       </div>
       <div className={styles.border}></div>
@@ -128,7 +128,7 @@ function experience() {
       <div className={styles.border}></div>
       <div className={styles.experienceBox}>
         <h2 className={styles.title}>Lastbilschaufför - Postnord</h2>
-        <h3 className={styles.time}>2021 - 2022</h3>
+        <h3 className={styles.time}>2021 - 2023</h3>
         <h4 className={styles.place}>Kiruna</h4>
       </div>
       <br></br>
