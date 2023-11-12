@@ -77,7 +77,7 @@ function experience() {
       <div className={styles.experienceBox}>
       <div className={styles.experienceBox}>
         <h2 className={styles.title}>Gatuarbetare - Svevia</h2>
-        <h3 className={styles.time}>Pågående</h3>
+        <h3 className={styles.time}>2023 - pågående</h3>
         <h4 className={styles.place}>Stockholm</h4>
         <p className={styles.bread}>
           Håller Kungsholmens och Östermalms gator rena. Kör maskiner som borstar gatorna, blåser löv vid behov och ser över gatorna efter skräp.
