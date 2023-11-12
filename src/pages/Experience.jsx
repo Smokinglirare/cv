@@ -32,7 +32,7 @@ function experience() {
         <h2 className={styles.title}>
           Frontend developer - Changemaker Educations
         </h2>
-        <h3 className={styles.time}>2021 - 2022</h3>
+        <h3 className={styles.time}>2021 - 2023</h3>
         <p className={styles.bread}>
           Frontend utbildning med fokus på Javascript och ReactJS, men också en
           tre månaders kurs inom backend och NodeJS. Gått kurser inom UI och UX
@@ -40,7 +40,7 @@ function experience() {
           versionshantering och webbpublicering.
           <br></br>
           <br></br>
-          Följande kurser har jag gått än så länge:
+          Följande kurser har jag slutfört:
           <br></br>
           <br></br>
           Frontend-programmering <strong>80 YHP</strong>
@@ -66,12 +66,24 @@ function experience() {
          LIA - Lärande i
           Arbete <strong>120YHP</strong>
         </p>
+        <h2 className={styles.title}>
+          Slutbetyg Gymnasiet
+        </h2>
       </div>
       <div className={styles.experience}>
         <h1 className={styles.experienceText}>Erfarenhet</h1>
       </div>
       <div className={styles.border}></div>
       <div className={styles.experienceBox}>
+      <div className={styles.experienceBox}>
+        <h2 className={styles.title}>Gatuarbetare - Svevia</h2>
+        <h3 className={styles.time}>Pågående</h3>
+        <h4 className={styles.place}>Stockholm</h4>
+        <p className={styles.bread}>
+          Håller Kungsholmens och Östermalms gator rena. Kör maskiner som borstar gatorna, blåser löv vid behov och ser över gatorna efter skräp.
+        </p>
+      </div>
+      <div className={styles.border}></div>
         <h2 className={styles.title}>Frontend utvecklare - Kvantic</h2>
         <h3 className={styles.time}>2023</h3>
         <h4 className={styles.place}>Stockholm</h4>
@@ -84,7 +96,15 @@ function experience() {
       </div>
       <div className={styles.border}></div>
       <div className={styles.experienceBox}>
-        <h2 className={styles.title}>Webbshop</h2>
+      <h2 className={styles.title}>
+      <a className={styles.link}
+            href="http://www.kentwahlbeckartstore.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            KentWahlbeckArtstore.com
+          </a>
+          </h2>
         <h3 className={styles.time}>2023</h3>
         <p className={styles.bread}>
           Byggt en Webbshop åt konstnären Kent Wahlbeck med hjälp av MedusaJS.
@@ -130,6 +150,12 @@ function experience() {
         <h2 className={styles.title}>Lastbilschaufför - Postnord</h2>
         <h3 className={styles.time}>2021 - 2023</h3>
         <h4 className={styles.place}>Kiruna</h4>
+      </div>
+      <br></br>
+      <div className={styles.experienceBox}>
+        <h2 className={styles.title}>Startat uthyrningsverksamhet i Jukkasjärvi</h2>
+        <h3 className={styles.time}>2020</h3>
+        <h4 className={styles.place}>Jukkasjärvi</h4>
       </div>
       <br></br>
       <div className={styles.experienceBox}>
